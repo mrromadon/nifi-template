@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<template encoding-version="1.2">
+    <description>Development
+-----------------
+Input : 
+- DCIM
+- Nagios
+
+Output :
+- JSON
+- InfluxDB
+- Kafka</description>
+    <groupId>c4a5ddb1-0164-1000-ffff-fffff9e769b1</groupId>
+    <name>[TEMPLATE] SMARTDC-v2</name>
+    <snippet>
+        <labels>
+            <id>e2a556bc-6123-32ed-0000-000000000000</id>
+            <parentGroupId>579cf8cb-4fc9-383f-0000-000000000000</parentGroupId>
+            <position>
+                <x>0.0</x>
+                <y>0.0</y>
+            </position>
+            <height>615.103515625</height>
+            <label>Development
+-----------------
+Input : 
+- DCIM
+-- LookupDB from : EWS DB
+-- Get Data from Web Services
+-- Output :
+    -- Timestamp Format : Epoch Nanoseconds
+- Nagios
+-- LookupDB from : EWS DB
+-- Get Data from Nagios DB
+-- Output : 
+    -- Timestamp Format : Epoch Nanoseconds
+=================
+Output :
+- JSON
+-- Output :
+    -- File
+- InfluxDB
+-- Output :
+    -- Database
+- Kafka
+-- Output :
+    -- Process to Streaming Analytics Manager</label>
+            <style>
+                <entry>
+                    <key>background-color</key>
+                    <value>#d6ffe5</value>
+                </entry>
+                <entry>
+                    <key>font-size</key>
+                    <value>20px</value>
+                </entry>
+            </style>
+            <width>483.209228515625</width>
+        </labels>
+    </snippet>
+    <timestamp>08/13/2018 09:22:26 WIB</timestamp>
+</template>
