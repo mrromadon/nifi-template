@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<template encoding-version="1.2">
+    <description>Development:
+===========
+Input : MQTT Server
+----------------
+Output : 
+- InfluxDB
+- JSON file
+- Apache Kafka
+   -- process to Streaming Analytics Manager
+----------------
+Background : 
+- Web service</description>
+    <groupId>a4fd321d-50fa-1f53-0000-00001e1bd299</groupId>
+    <name>[TEMPLATE] SCADA-v1</name>
+    <snippet>
+        <labels>
+            <id>ef7b167f-a409-3b01-0000-000000000000</id>
+            <parentGroupId>7a8519b5-a2c9-33f7-0000-000000000000</parentGroupId>
+            <position>
+                <x>0.0</x>
+                <y>0.0</y>
+            </position>
+            <height>500.8357238769531</height>
+            <label>Development:
+===========
+Input : MQTT Server
+----------------
+Output : 
+- InfluxDB
+- JSON file
+- Apache Kafka
+   -- process to Streaming Analytics Manager
+----------------
+Background : 
+- Web service</label>
+            <style>
+                <entry>
+                    <key>background-color</key>
+                    <value>#f3fac3</value>
+                </entry>
+                <entry>
+                    <key>font-size</key>
+                    <value>20px</value>
+                </entry>
+            </style>
+            <width>489.5892639160156</width>
+        </labels>
+    </snippet>
+    <timestamp>08/13/2018 14:10:01 WIB</timestamp>
+</template>
